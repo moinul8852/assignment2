@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+header{
+    padding: 52px 135px;
+}
+.main-color{
+    color: #FF5400;
+}
+
+.nav-item{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+list-style: none;
+margin-right: 30px;
+font-weight: 400;
+font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 36px;
+}
+.baner-pic{
+    width: 1170px;
+    height: 500px;
+    border: 2px solid red;
+    margin-top: 49px;
+    justify-content: center;
+   text-align: center;
+   /* background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png); */
+   /* border-radius: 16px; */
+
+}
+
+/* .baner-pic{
+       
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+  
+
+  } */
+.baner-title{
+    margin-top:106px;
+}
+.Explore{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.Dolor{
+    color: #FFF;
+    line-height: 26px;
+    text-align: center;
+    font-size: 1rem;
+    /* width: 676px; */
+}
+.babeer-sce{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+width: 800;
+/* border: 8px solid red; */
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-top: 64px;
+}
+.padding{
+    border-radius: 8px;
+background: #FFF;
+width: 174px;
+height: 52px;
+
+}
+.Popular-tour{
+    display: flex;
+    margin-top: 100px;
+    border: 1px solid red;
+}
