@@ -41,6 +41,10 @@ nav li a{
     font-weight: 800;
     font-size: 36px;
 }
+/* body{
+    
+width: 1170px;
+} */
 .baner-pic{
     width: 1170px;
     height: 500px;
@@ -94,7 +98,243 @@ height: 52px;
 
 }
 .Popular-tour{
-    display: flex;
-    margin-top: 100px;
+    /* display: flex; */
+    /* margin-top: 100px; */
     border: 1px solid red;
+    display: inline-block;
+    /* justify-content: space-between;
+    align-items: center; */
+    
+  
 }
+.content{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid red;
+    
+    width: 1170px;
+
+
+}
+.image{
+    border: 1px solid black;
+}
+
+   
+
+.pic1{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 28px;
+
+}
+.main-part{
+    width: 1170px;
+    border: 1px solid red;
+    margin: 135px;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+align-items: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.pic2{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 28px;
+
+}
+.centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* .main-part{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+align-items: center;
+
+
+} */
+.title-text{
+    align-items: center;
+    justify-content: center;
+}
+.there-title{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    margin: 135px;
+   text-align: center;
+   width: 1440px;
+
+}
+.ab{
+    color: #131318;
+
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.bc{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 643px;
+}
+
+.hadeb1{
+    width: 573px;
+height: 284px;
+/* border: 1px solid orange; */
+
+}
+.hadeb1{
+    width: 573px;
+height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 32px;
+
+}
+.hadeb2{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.hadeb3{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+justify-content: center;
+}
+.World{
+    color: #131318;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 800;
+
+}
+.amet{
+    color: #5A5A5D;
+    width: 486px;
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.card{
+    border: 1px solid red;
+    /* border: 1px solidn orange; */
+    margin: 135px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.two{
+    width: 700px;
+    margin: 132px 400px;
+    text-align: center;
+    justify-content: center;
+}
+.backiamge{
+   
+width: 579px;
+height: 250px;
+border-radius: 16px;
+border: 2px solid #e71717;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+padding-left: 24px;
+margin-top: 100px;
+
+
+
+}
+.one{
+    display: flex;
+    justify-content:space-evenly;
+}
+.seeall{
+    width: 1170px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.ten{
+    display: flex;
+    text-align: center;
+    margin: 50px 135px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 500px;
+}
+.egaro{
+   justify-content: space-between;
+   margin-right: 24px;
+
+}
+.baro{
+    width: 1170px;
+    height: 300px;
+    display: flex;
+  margin: 50px 135px;
+   
+}
+   .tero{
+    width: 1170px;
+    margin-top: 30px;
+    
+
+   }
+   .choddo{
+    width: 1170px;
+    border: 1px solid red;
+  
+
+   }
+   .sixteen{
+    margin-top: 30px;
+   }
+ .footerone{
+    width: 1440px;
+height: 502px;
+ background: rgba(19, 19, 24, 0.05);
+ text-align: center;
+ justify-content: center;
+ border: 1px solid red;
+
+
+   }
+  
